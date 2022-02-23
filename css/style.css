@@ -81,7 +81,7 @@
     margin-bottom: 2rem;
   }
   .header .descriptionHeader {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
     font-size: 8rem;
     text-align: center;
     line-height: 3.7rem;
@@ -91,14 +91,14 @@
     left: 2.5rem; */
     text-shadow: 0 0 2rem #000;
 }
-.subTitleHeader i{
+.subTitleHeader{
     font-size: 4rem;
     color: #fff;
     text-shadow: 0 0 2rem #000;
-    margin: 10rem 2rem 0 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     text-align: center;
+    font-style: italic;
 }
   @media (max-width: 768px) {
     .header .descriptionHeader {
@@ -106,6 +106,10 @@
       margin-right: 0;
       position: unset;
       line-height: unset;
+      font-size: 6rem;
+    }
+    .subTitleHeader i{
+        text-align: center;
     }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -311,58 +315,7 @@
     padding-right: 0.5rem;
   }
   
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  .footer .icons-header-container {
-    display: flex;
-    justify-content: flex-end;
-  }
-  @media (max-width: 768px) {
-    .footer .icons-header-container {
-      justify-content: center;
-    }
-  }
-  .footer .icons-header-container a {
-    width: 4.266rem;
-    height: 4.266rem;
-  }
-  .footer .icons-header-container :hover .fill {
-    color: salmon;
-    transition: all 0.5s;
-    transform: scale(1.2, 1.2);
-  }
-  .footer .copyright, .footer .Design {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.3rem;
-  }
-  .footer .rigth-margin {
-    margin-right: 1rem;
-  }
-  .footer .bottom-margin {
-    margin-bottom: 1rem;
-  }
-  .footer .color-Footer {
-    color: rgba(255, 255, 255, 0.687);
-  }
-  .footer .fill {
-    color: rgba(255, 255, 255, 0.687);
-  }
-  .containerTextFooter{
-      margin-left: 1.5rem;
-      color: #ffffffaf;
-  }
-  .containerTextFooter p{
-      font-size: 2rem;
-      font-family: Roboto;
-      text-align: center;
-  }
-  .main02::-webkit-scrollbar {
-    width: 15px;
-    background: linear-gradient(0deg, #cccccc 0%, white 100%);
-  }
+  
   
   .main02::-webkit-scrollbar-thumb {
     width: 5px;
@@ -385,13 +338,13 @@
   }
 
   .containerMapa{
-      width: 77.5rem;
-      height: 50rem;
+      width: 37rem;
+      height: 37rem;
       border-radius: 1.5rem;
     box-shadow: 0 0 1rem #ccc;
     padding: 1.2rem;
     background: #fff;
-    margin: 0 0 2rem 2rem;
+    margin: 0 0 2rem 0;
     display:flex;
     align-items: center;
     flex-direction: column;

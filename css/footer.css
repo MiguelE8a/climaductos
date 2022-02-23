@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer .icons-header-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media (max-width: 768px) {
+    .footer .icons-header-container {
+      justify-content: center;
+    }
+    .containerTextFooter p{
+        /* margin-left: 1.5rem; */
+        color: #3a3a3a;
+        font-weight: 800;
+    }
+  }
+  .footer .icons-header-container a {
+    width: 4.266rem;
+    height: 4.266rem;
+  }
+  .footer .icons-header-container :hover .fill {
+    color: salmon;
+    transition: all 0.5s;
+    transform: scale(1.2, 1.2);
+  }
+  .footer .copyright, .footer .Design {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+  }
+  .footer .rigth-margin {
+    margin-right: 1rem;
+  }
+  .footer .bottom-margin {
+    margin-bottom: 1rem;
+  }
+  .footer .color-Footer {
+    color: rgba(255, 255, 255, 0.687);
+  }
+  .footer .fill {
+    color: rgba(255, 255, 255, 0.687);
+  }
+  .containerTextFooter{
+      margin-left: 1.5rem;
+      color: #ffffffaf;
+  }
+  .containerTextFooter p{
+      font-size: 2rem;
+      font-family: Roboto;
+      text-align: center;
+  }
+  .main02::-webkit-scrollbar {
+    width: 15px;
+    background: linear-gradient(0deg, #cccccc 0%, white 100%);
+  }

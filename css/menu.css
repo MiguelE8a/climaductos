@@ -1,0 +1,28 @@
+.menu{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 64%, rgb(0, 187, 224) 100%);
+}
+.itemMenu{
+    
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 64%, rgb(0, 187, 224) 100%);
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: Roboto;
+    list-style: none;
+    /* margin-left: 1rem; */
+    padding: 0 1rem;
+    text-decoration: none;
+    border-left: 0.1rem solid rgb(0, 0, 0);
+    border-right: 0.1rem solid rgb(0, 0, 0);
+    /* width: 9rem; */
+}
+.itemMenu:hover{
+    background: linear-gradient(180deg, rgb(10, 10, 10) 100%, rgba(9,9,121,1) 64%, rgba(2,0,36,1) 0%);
+    color: #ccc;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
