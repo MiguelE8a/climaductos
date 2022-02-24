@@ -132,7 +132,7 @@
     .main02 {
       width: 100vw;
       height: 100%;
-      padding: 3.8rem 1.8rem 3.8rem;
+      padding: 0 0 0 0;
     }
   }
   @media (min-width: 1024px) and (max-width: 1247px) {

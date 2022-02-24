@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/css/menu.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/css/footer.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/silder.css" media="screen" />
     <title>Acerolet Page</title>
 </head>
 <body>
@@ -68,7 +69,24 @@
             
           <section class="one">
             <header class="headerOne">
-                <img src="./images/back04.png" alt="Header" srcset="">
+              <div class="container-slider">
+                <div class="slider" id="slider">
+                    <div class="slider__section">
+                        <img src="./images/SLIDER01.png" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="./images/SLIDER02.png" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="./images/SLIDER03.png" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="./images/SLIDER04.png" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+                    <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+                </div>
+            </div>
             </header>
             <ol class="menu">
                 <li > <a href="https://www.youtube.com/watch?v=JW32MrUQ5Wc&t=162s" class="itemMenu">Home</a>    </li>
@@ -176,6 +194,7 @@
             </div>
           </section>
         </div>
+        <script src="slider.js"></script>
         <script src="./js/index.js"></script>
       </body>
 </html>
