@@ -1,7 +1,12 @@
 .footer {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    margin: 0 auto;
+  }
+  .containerIcons{
+    align-items: center;
   }
   .footer .icons-header-container {
     display: flex;
@@ -10,11 +15,6 @@
   @media (max-width: 768px) {
     .footer .icons-header-container {
       justify-content: center;
-    }
-    .containerTextFooter p{
-        /* margin-left: 1.5rem; */
-        color: #3a3a3a;
-        font-weight: 800;
     }
   }
   .footer .icons-header-container a {
@@ -27,11 +27,11 @@
     transform: scale(1.2, 1.2);
   }
   .footer .copyright, .footer .Design {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-size: 1.3rem;
   }
   .footer .rigth-margin {
-    margin-right: 1rem;
+    margin: 0 auto;
   }
   .footer .bottom-margin {
     margin-bottom: 1rem;
@@ -42,15 +42,7 @@
   .footer .fill {
     color: rgba(255, 255, 255, 0.687);
   }
-  .containerTextFooter{
-      margin-left: 1.5rem;
-      color: #ffffffaf;
-  }
-  .containerTextFooter p{
-      font-size: 2rem;
-      font-family: Roboto;
-      text-align: center;
-  }
+ 
   .main02::-webkit-scrollbar {
     width: 15px;
     background: linear-gradient(0deg, #cccccc 0%, white 100%);

@@ -52,9 +52,9 @@
   
   .header {
     background-image: url(../images/back03.png);
-    /* background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; */
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
     display: flex;
@@ -132,7 +132,7 @@
     .main02 {
       width: 100vw;
       height: 100%;
-      padding: 0 0 0 0;
+      padding: 0 0 0 0 ;
     }
   }
   @media (min-width: 1024px) and (max-width: 1247px) {
@@ -147,16 +147,17 @@
     font-size: 3.6rem;
     font-weight: 400;
     font-family: Roboto;
-    margin-bottom: 3.2rem;
     text-align: center;
-}
-.main02 .one .descriptionOne {
-    padding: 3.8rem 0 0 3.8rem;
+  }
+  .main02 .one .descriptionOne {
+    padding: 3.8rem 3.8rem;
+    color: #111224;
     font-size: 2.6rem;
     font-family: "Roboto", sans-serif;
-    margin-bottom: 3.2rem;
+    font-weight: 500;
     line-height: 3.2rem;
     text-align: center;
+    font-style: italic;
   }
   .main02 .two {
     border-bottom: 0.1rem solid #ccc;
@@ -168,6 +169,7 @@
     font-weight: 800;
     margin-bottom: 3.2rem;
     text-align: center;
+    color: #111224;
   }
   .main02 .two .row {
     width: 100%;
@@ -260,6 +262,7 @@
     font-weight: 800;
     margin-bottom: 3.2rem;
     text-align: center;
+    color: #111224
   }
   
   .main02 .three .containerSkill {
@@ -344,16 +347,14 @@
     box-shadow: 0 0 1rem #ccc;
     padding: 1.2rem;
     background: #fff;
-    margin: 0 0 2rem 0;
+    margin: auto;
     display:flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
 
-  .containerMainMapa{
-      display: flex;
-  }
+  
 
   .containerTextContac{
       font-family: Roboto;

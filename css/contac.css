@@ -1,0 +1,28 @@
+.infoContact{
+    width: 37rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.itemContac{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+.info{
+    border-bottom: 0.1rem solid #111224;
+    font-size: 1.6rem;
+    color: #111224;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.iconContac{
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    /* width: 2.5rem;
+    height: auto; */
+}
