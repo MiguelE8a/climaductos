@@ -1,5 +1,9 @@
-.menu{
+/* .menu{
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 64%, rgb(0, 187, 224) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 .itemMenu{
     
@@ -7,22 +11,77 @@
     color: aliceblue;
     font-size: 3rem;
     font-family: Roboto;
-    list-style: none;
+    list-style: none; */
     /* margin-left: 1rem; */
-    padding: 0 1rem;
+    /* padding: 0 1rem;
     text-decoration: none;
     border-left: 0.1rem solid rgb(0, 0, 0);
-    border-right: 0.1rem solid rgb(0, 0, 0);
+    border-right: 0.1rem solid rgb(0, 0, 0); */
     /* width: 9rem; */
-}
-.itemMenu:hover{
+/* } */
+/* .itemMenu:hover{
     background: linear-gradient(180deg, rgb(10, 10, 10) 100%, rgba(9,9,121,1) 64%, rgba(2,0,36,1) 0%);
     color: #ccc;
     cursor: pointer;
+} */
+
+.containerMenu{
+    width: 100%;
+    background-color: #2A9E6A;
 }
 
-.menu{
+#btn-menu{
+    display:none
+}
+
+.containerMenu label{
+    display:none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+.containerMenu label:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.menu li{
+    border-right: 1px solid #fff;
+}
+.menu li:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+
+@media (max-width:768px){
+    .containerMenu label{
+        display:block;
+    }
+    .menu{
+        position: absolute;
+        background-color: #2A9E6A;
+        width: 70%;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+
 }

@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="./images/favicon.png"/>
     <link rel="stylesheet"  href="./css/style.css"  />
     <link rel="stylesheet"  href="./css/menu.css"  />
+    <link rel="stylesheet" href="./css/menuPhone.css">
     <link rel="stylesheet"  href="./css/footer.css"  />
     <link rel="stylesheet"  href="./css/silder.css"  />
     <link rel="stylesheet" href="./css/contac.css"  />
@@ -82,15 +83,26 @@
                     <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
                     <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
                 </div>
+
+               
             </div>
             </header>
-            <ol class="menu">
-                <li > <a href="https://www.youtube.com/watch?v=JW32MrUQ5Wc&t=162s" class="itemMenu">Home</a>    </li>
-                <li > <a href="#Proyectos" class="itemMenu">Proyectos</a></li>
-                <li > <a href="#Productos" class="itemMenu">Productos</a></li>
-                <li > <a href="#Servicios" class="itemMenu">Servicios</a></li>
-                <li > <a href="#Contactanos" class="itemMenu">Contáctanos</a></li>
-            </ol>
+            <div class="containerMenu">
+              <input type="checkbox" id="btn-menu">
+              <label for="btn-menu"><img src="./images/menu.png" alt=""></label>
+              <nav class="menu">
+                <ul>
+  
+                  
+                    <li > <a href="#" class="itemMenu">Home</a>    </li>
+                    <li > <a href="#Proyectos" class="itemMenu">Proyectos</a></li>
+                    <li > <a href="#Productos" class="itemMenu">Productos</a></li>
+                    <li > <a href="#Servicios" class="itemMenu">Servicios</a></li>
+                    <li > <a href="#Contactanos" class="itemMenu">Contáctanos</a></li>
+                </ul>
+              </nav>
+            </div>
+
             <p class="descriptionOne">Nos dedicamos a solucionar las necesidades de nuestros clientes, con el diseño y fabricación de letreros, piezas en corte
               plano con laser de alta potencia.
               </p>
@@ -209,7 +221,7 @@
           
         </div>
         <script src="slider.js"></script>
-        <script src="./js/index.js"></script>
+        <script src="menu.js"></script>
       </body>
 </html>
 
