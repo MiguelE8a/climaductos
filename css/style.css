@@ -180,6 +180,9 @@
     .main02 .two .row {
       justify-content: center;
     }
+    .main02 .one{
+      position: absolute;
+    }
   }
   @media (min-width: 1024px) and (max-width: 1247px) {
     .main02 .two .row {
