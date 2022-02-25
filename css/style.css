@@ -179,6 +179,7 @@
   @media (max-width: 768px) {
     .main02 .two .row {
       justify-content: center;
+      margin-top: 600px;
     }
     .main02 .one{
       position: absolute;
@@ -285,7 +286,7 @@
   }
   .main02 .three .containerSkill .containerArticle {
     width: 37.5rem;
-    height: 37.5rem;
+    /* height: 37.5rem; */
     border-radius: 1.5rem;
     box-shadow: 0 0 1rem #ccc;
     padding: 1.2rem;
@@ -357,7 +358,9 @@
     justify-content: center;
   }
 
-  
+  .job-image{
+    object-fit: cover;
+  }
 
   .containerTextContac{
       font-family: Roboto;
