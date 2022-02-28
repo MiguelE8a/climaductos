@@ -74,9 +74,9 @@
 
 @media (max-width:768px){
     .containerMenu{
-        position: absolute;
+        /* position: absolute;
         bottom: 1360px;
-        height: 40px;
+        height: 40px; */
     }
     .containerMenu label{
         display:block;
