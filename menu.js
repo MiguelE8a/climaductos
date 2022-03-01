@@ -30,4 +30,4 @@
     // if(e.classList == 'checked'){
     //     console.log('des')
     // }
-})
+// })
