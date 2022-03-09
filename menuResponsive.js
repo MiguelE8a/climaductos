@@ -19,4 +19,5 @@ x.addEventListener('click', (e) =>{
     x.style.display = 'none'
     openMenu.style.display = 'block'
     containerMenuRes.style.backgroundColor = 'rgb(0,0,0,0.0)'
+    containerMenuRes.style.height = '6rem'
 })

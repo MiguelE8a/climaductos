@@ -23,7 +23,7 @@
 .menuResponsive{
     display: none;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: #fff;
     width: 70%;
     height: 100vh;
     
@@ -32,12 +32,13 @@
     border-bottom: 1px solid #fff;
     height: 6rem;
     padding: 0.7rem 0 0 0.7rem  ;
+    border-bottom: 0.2rem solid #ccc;
     
 }
 .item-menuRes a{
     display: block;
-   color: aliceblue;
-   font-size: 3.6rem;
+   color: #111224;
+   font-size: 2.6rem;
    text-decoration: none;
    font-family:Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -46,4 +47,10 @@
 }
 .x{
     display: none;
+}
+.logoRes{
+    width: 22rem;
+}
+.item-menuRes_logo{
+    align-self: center;
 }
