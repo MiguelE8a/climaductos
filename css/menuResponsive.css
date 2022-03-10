@@ -4,7 +4,6 @@
     position: fixed;
     height: 100vh;
     transition: all .5s ease;
-
 }
 .open-MenuRes{
     height: 30px;
@@ -17,7 +16,7 @@
 .nav-menuRes{
     display: flex;
     height: 6rem;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     justify-content: space-between;
 }
 .menuResponsive{
@@ -26,17 +25,19 @@
     background-color: #fff;
     width: 70%;
     height: 100vh;
+    padding-top: 2rem;
     
 }
 .item-menuRes{
     border-bottom: 1px solid #fff;
     height: 6rem;
-    padding: 0.7rem 0 0 0.7rem  ;
+    padding: 1rem 0 0 0.7rem  ;
     border-bottom: 0.2rem solid #ccc;
     
 }
 .item-menuRes a{
     display: block;
+    margin-left: 1rem;
    color: #111224;
    font-size: 2.6rem;
    text-decoration: none;
@@ -53,4 +54,18 @@
 }
 .item-menuRes_logo{
     align-self: center;
+}
+.contLogosRedesMenuRes{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.contLogoRes{
+    margin-bottom: 2rem;
+}
+.contLogoMenuRes{
+    border-bottom: 0.1rem solid #ccc;
+}
+.redesMenu{
+    margin: 0.5rem;
 }

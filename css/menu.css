@@ -11,7 +11,7 @@
     color: aliceblue;
     font-size: 3rem;
     font-family: Roboto;
-    list-style: none; */
+    list-style: none; */ */
     /* margin-left: 1rem; */
     /* padding: 0 1rem;
     text-decoration: none;
@@ -88,7 +88,7 @@
         width: 70%;
         margin-left: -70%;
         transition: all 0.5s; */
-    }
+    /* }
     .menu ul{
         flex-direction: column;
     }
@@ -99,7 +99,7 @@
         margin: 0;
         position: relative;
         /* bottom: 30px; */
-    }
+    /* }
 
     .btn-closed{
         position: absolute;
@@ -107,6 +107,13 @@
         bottom: 15px;
         border: 1px solid rgba(0,0,0,0);
         opacity: 0;
+    }
+
+} */
+
+@media (max-width: 768px) {
+    .containerMenu{
+        display: none;
     }
 
 }

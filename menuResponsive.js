@@ -9,12 +9,14 @@ openMenu.addEventListener('click', (e)=>{
     menu.style.display='flex'
     x.style.display = 'block'
     navMenuRes.style.justifyContent = 'flex-start'
+    containerMenuRes.style.height = '100vh'
     containerMenuRes.style.backgroundColor = 'rgb(0, 0, 0,0.5)'
 })
 
 
 
 x.addEventListener('click', (e) =>{
+    navMenuRes.style.height = '6rem'
     menu.style.display = 'none'
     x.style.display = 'none'
     openMenu.style.display = 'block'
