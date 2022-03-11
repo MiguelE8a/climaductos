@@ -11,7 +11,7 @@
     color: aliceblue;
     font-size: 3rem;
     font-family: Roboto;
-    list-style: none; */ */
+    list-style: none; */ 
     /* margin-left: 1rem; */
     /* padding: 0 1rem;
     text-decoration: none;
@@ -113,6 +113,9 @@
 
 @media (max-width: 768px) {
     .containerMenu{
+        display: none;
+    }
+    .menu{
         display: none;
     }
 

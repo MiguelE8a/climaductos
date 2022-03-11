@@ -4,8 +4,16 @@
     max-width: 100%;
     /* margin: auto; */
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
 }
+.cont-button__slider{
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    position: relative;
+    top: 19rem;
+}
+
 #slider{
     display: flex;
     width: 400%;

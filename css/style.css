@@ -182,10 +182,9 @@
   @media (max-width: 768px) {
     .main02 .two .row {
       justify-content: center;
-      margin-top: 600px;
     }
     .main02 .one{
-      position: absolute;
+      /* position: absolute; */
     }
   }
   @media (min-width: 1024px) and (max-width: 1247px) {
