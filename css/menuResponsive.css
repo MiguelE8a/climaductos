@@ -3,75 +3,75 @@
     --primaryColor: #fff;
 }
 
-
-.containerMenuRes{
-    width: 100%;
-    /* height: 12rem; */
-    position: fixed;
-    height: 100vh;
-    transition: all .5s ease;
-}
-.open-MenuRes{
-    height: 30px;
-    width: 30px;
-    margin: 1rem;
-}
-#closedMenuRes{
-    display: none;
-}
-.nav-menuRes{
-    display: flex;
-    height: 6rem;
-    background-color: var(--secondColor);
-    justify-content: space-between;
-}
-.menuResponsive{
-    display: none;
-    flex-direction: column;
-    background-color: var(--primaryColor);
-    width: 70%;
-    height: 100vh;
-    padding-top: 2rem;
-    
-}
-.item-menuRes{
-    border-bottom: 1px solid var(--primaryColor);
-    height: 6rem;
-    padding: 1rem 0 0 0.7rem  ;
-    border-bottom: 0.2rem solid #ccc;
-    
-}
-.item-menuRes a{
-    display: block;
-    margin-left: 1rem;
-   color: var(--secondColor);
-   font-size: 2.6rem;
-   text-decoration: none;
-   font-family:Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.item-menuRes:hover{
-    background-color: rgba(0,0,0,0.5);
-}
-.x{
-    display: none;
-}
-.logoRes{
-    width: 22rem;
-}
-.item-menuRes_logo{
-    align-self: center;
-}
-.contLogosRedesMenuRes{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-}
-.contLogoRes{
-    margin-bottom: 2rem;
-}
-.contLogoMenuRes{
-    border-bottom: 0.1rem solid #ccc;
-}
-.redesMenu{
-    margin: 0.5rem;
+@media (max-width: 768px){
+    .containerMenuRes{
+        width: 100%;
+        position: fixed;
+        height: 100vh;
+        transition: all .5s ease;
+    }
+    .open-MenuRes{
+        height: 3rem;
+        width: 3rem;
+        margin: 1rem;
+    }
+    #closedMenuRes{
+        display: none;
+    }
+    .nav-menuRes{
+        display: flex;
+        height: 6rem;
+        background-color: var(--secondColor);
+        justify-content: space-between;
+    }
+    .menuResponsive{
+        display: none;
+        flex-direction: column;
+        background-color: var(--primaryColor);
+        width: 70%;
+        height: 100vh;
+        padding-top: 2rem;
+        
+    }
+    .item-menuRes{
+        border-bottom: 0.1rem solid var(--primaryColor);
+        height: 6rem;
+        padding: 1rem 0 0 0.7rem  ;
+        border-bottom: 0.2rem solid #ccc;
+        
+    }
+    .item-menuRes a{
+        display: block;
+        margin-left: 1rem;
+       color: var(--secondColor);
+       font-size: 2.6rem;
+       text-decoration: none;
+       font-family:Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .item-menuRes:hover{
+        background-color: rgba(0,0,0,0.5);
+    }
+    .x{
+        display: none;
+    }
+    .logoRes{
+        width: 22rem;
+    }
+    .item-menuRes_logo{
+        align-self: center;
+    }
+    .contLogosRedesMenuRes{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .contLogoRes{
+        margin-bottom: 2rem;
+    }
+    .contLogoMenuRes{
+        border-bottom: 0.1rem solid #ccc;
+    }
+    .redesMenu{
+        margin: 0.5rem;
+    }
 }
