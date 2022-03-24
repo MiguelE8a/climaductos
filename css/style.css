@@ -127,7 +127,7 @@
   .main02 {
     width: 70%;
     padding: 0rem 3.8rem 3.8rem 0;
-    background: linear-gradient(0deg, #cccccc 0%, white 100%);
+    /* background: linear-gradient(0deg, #111224 0%, white 100%); */
     overflow-x: hidden;
     overflow-y: visible;
   }
@@ -335,8 +335,8 @@
 
   .whatsap{
       position: fixed;
-      left: 181rem;
-      top:80rem;
+      right: 2%;
+      bottom: 2%;
       display: fixed;
       border-radius: 50%;
   }
@@ -345,7 +345,11 @@
       transition: all 0.5s;
     transform: scale(1.1, 1.1);
   }
-
+@media (max-width: 768px) {
+  .whatsap img{
+    width: 6.8rem;
+  }
+}
   .containerMapa{
       width: 37rem;
       height: 37rem;
