@@ -3,22 +3,33 @@
     --primaryColor: #fff;
 }
 
+<<<<<<< HEAD
 .containerMenuRes{
     display: none;
 }
 @media (max-width: 768px) {
     
+=======
+@media (max-width: 768px){
+>>>>>>> 49c26a1c0c5d6bcce41a57e21fb2c2dcc860313e
     .containerMenuRes{
         width: 100%;
         position: fixed;
         height: 100vh;
         transition: all .5s ease;
+<<<<<<< HEAD
         display: block;
     }
 
     .open-MenuRes{
         height: 30px;
         width: 30px;
+=======
+    }
+    .open-MenuRes{
+        height: 3rem;
+        width: 3rem;
+>>>>>>> 49c26a1c0c5d6bcce41a57e21fb2c2dcc860313e
         margin: 1rem;
     }
     #closedMenuRes{
@@ -40,7 +51,11 @@
         
     }
     .item-menuRes{
+<<<<<<< HEAD
         border-bottom: 1px solid var(--primaryColor);
+=======
+        border-bottom: 0.1rem solid var(--primaryColor);
+>>>>>>> 49c26a1c0c5d6bcce41a57e21fb2c2dcc860313e
         height: 6rem;
         padding: 1rem 0 0 0.7rem  ;
         border-bottom: 0.2rem solid #ccc;
@@ -49,10 +64,17 @@
     .item-menuRes a{
         display: block;
         margin-left: 1rem;
+<<<<<<< HEAD
     color: var(--secondColor);
     font-size: 2.6rem;
     text-decoration: none;
     font-family:Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+=======
+       color: var(--secondColor);
+       font-size: 2.6rem;
+       text-decoration: none;
+       font-family:Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+>>>>>>> 49c26a1c0c5d6bcce41a57e21fb2c2dcc860313e
     }
     .item-menuRes:hover{
         background-color: rgba(0,0,0,0.5);
@@ -80,4 +102,8 @@
     .redesMenu{
         margin: 0.5rem;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 49c26a1c0c5d6bcce41a57e21fb2c2dcc860313e
