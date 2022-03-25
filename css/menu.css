@@ -1,31 +1,24 @@
-/* .menu{
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 64%, rgb(0, 187, 224) 100%);
+.menu{
+    /* background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 64%, rgb(0, 187, 224) 100%); */
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
+    /* list-style: none; */
 }
 .itemMenu{
     
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 64%, rgb(0, 187, 224) 100%);
-    color: aliceblue;
+    /* color: #111224; */
     font-size: 3rem;
     font-family: Roboto;
-    list-style: none; */ 
-    /* margin-left: 1rem; */
-    /* padding: 0 1rem;
-    text-decoration: none;
-    border-left: 0.1rem solid rgb(0, 0, 0);
-    border-right: 0.1rem solid rgb(0, 0, 0); */
-    /* width: 9rem; */
-/* } */
-/* .itemMenu:hover{
-    background: linear-gradient(180deg, rgb(10, 10, 10) 100%, rgba(9,9,121,1) 64%, rgba(2,0,36,1) 0%);
+}
+.itemMenu:hover{
+    background: rgba(0,0,0,0.5);
     color: #ccc;
     cursor: pointer;
-} */
+}
 
-/* .containerMenu{
+.containerMenu{
     width: 100%;
     background-color: #2A9E6A;
 }
@@ -74,21 +67,21 @@
 
 @media (max-width:768px){
     .containerMenu{
-        /* position: absolute;
+        position: absolute;
         bottom: 1360px;
-        height: 40px; */
-    /* }
+        height: 40px;
+     }
     .containerMenu label{
         display:block;
         border: none;
     }
     .menu{
-        /* position: absolute;
+        position: absolute;
         background-color: #2A9E6A;
         width: 70%;
         margin-left: -70%;
-        transition: all 0.5s; */
-    /* }
+        transition: all 0.5s;
+     }
     .menu ul{
         flex-direction: column;
     }
@@ -98,8 +91,8 @@
     #btn-menu:checked ~ .menu{
         margin: 0;
         position: relative;
-        /* bottom: 30px; */
-    /* }
+        bottom: 30px;
+     }
 
     .btn-closed{
         position: absolute;
@@ -109,7 +102,7 @@
         opacity: 0;
     }
 
-} */
+}
 
 @media (max-width: 768px) {
     .containerMenu{

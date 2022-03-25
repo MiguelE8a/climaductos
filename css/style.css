@@ -17,8 +17,8 @@
   }
   
   body {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     width: 100vw;
     height: 100%;
   }
@@ -31,8 +31,8 @@
   }
   
   .main01 {
-    width: 30%;
-    height: 100%;
+    width: 100%;
+    height: 10rem;
   }
   @media (max-width: 768px) {
     .main01 {
@@ -61,7 +61,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 9.6rem 0 0;
+    /* padding: 9.6rem 0 0; */
   }
   @media (max-width: 768px) {
     .header {
@@ -74,14 +74,15 @@
   .header .container-header {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column;
+    align-items: center; */
   }
   .header .avatar {
-    width: 17rem;
-    height: 17rem;
+    /* width: 17rem; */
+    /* height: 17rem;
     border-radius: 50%;
-    margin: 11rem 0 2rem 0
+    margin: 11rem 0 2rem 0 */
   }
   .header .descriptionHeader {
     margin-bottom: 8rem;
