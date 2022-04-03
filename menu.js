@@ -31,3 +31,13 @@
     //     console.log('des')
     // }
 // })
+
+window.addEventListener('scroll', ()=>{
+    let header = document.querySelector('header')
+    if(scrollY > 80){
+        header.classList = 'header menuScroll'
+    }else if(scrollY < 80){
+        header.classList = 'header'
+
+    }
+})
