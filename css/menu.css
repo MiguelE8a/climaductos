@@ -5,15 +5,16 @@
     height: 100%;
 }
 .itemMenu{
-    /* background: #111224; */
-    font-size: 3rem;
-    font-family: Roboto;
+    display: block;
+    padding: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: all .6s;
     
 }
 .itemMenu:hover{
-    background: #ccc;
-    cursor: pointer;
-    height: 100%;
+    color: #111224;
 }
 
 .menuScroll{
@@ -50,26 +51,25 @@
 
 .menu li{
     border-left: 1px solid #fff;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Poppins', sans-serif;
     text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.menu li:hover{
+.menu li:hover {
     background-color: #ccc;
+    cursor: pointer;
+    border-left: 1px solid #111224;
+    /* border-right: 2px solid #111224; */
+}
+.menu li:hover .itemMenu{
+    color: #111224;
+
 }
 
-.menu li a{
-    display: block;
-    padding: 0 1rem;
-    color: #fff;
-    text-decoration: none;
-    font-size: 2rem;
-    margin-top: 1.5rem;
-    height: 100%;
-}
-.menu li a:hover{
-    background-color: #ccc;
-    color: #111224
-}
+
 
 @media (max-width:768px){
     .containerMenu{

@@ -3,12 +3,10 @@
     padding: 0;
     font-size: 62.5%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
   }
   
-  html {
-    width: 100vw;
-    height: 100%;
-  }
+ 
   @media (max-width: 768px) {
     html {
       overflow-x: unset;
@@ -16,12 +14,6 @@
     }
   }
   
-  body {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    width: 100vw;
-    height: 100%;
-  }
   @media (max-width: 768px) {
     body {
       flex-direction: column;
@@ -32,7 +24,6 @@
   
   .main01 {
     width: 100%;
-    /* height: 10rem; */
   }
   @media (max-width: 768px) {
     .main01 {
@@ -52,16 +43,10 @@
   }
   
   .header {
-    /* background-image: url(../images/back03.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
     width: 100%;
     height: 6rem;
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    /* padding: 9.6rem 0 0; */
+    transition: all .4s;
   }
   @media (max-width: 768px) {
     .header {
@@ -74,10 +59,7 @@
   .header .container-header {
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     background-color: #111224;
-    /* flex-direction: column;
-    align-items: center; */
   }
   .header .avatar {
     /* width: 17rem; */
@@ -90,17 +72,15 @@
     font-size: 8rem;
     text-align: center;
     line-height: 3.7rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;;
     color: #fff;
-    /* position: relative;
-    left: 2.5rem; */
     text-shadow: 0 0 2rem #000;
 }
 .subTitleHeader{
     font-size: 4rem;
     color: #fff;
     text-shadow: 0 0 2rem #000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Nanum Gothic', sans-serif;
     font-weight: bolder;
     text-align: center;
     font-style: italic;
@@ -127,11 +107,9 @@
   }
   
   .main02 {
-    /* width: 70%; */
-    padding: 0rem 3.8rem 3.8rem 0;
-    /* background: linear-gradient(0deg, #111224 0%, white 100%); */
+    /* padding: 0rem 3.8rem 3.8rem 0; */
     overflow-x: hidden;
-    overflow-y: visible;
+    /* overflow-y: visible; */
   }
   @media (max-width: 768px) {
     .main02 {
@@ -148,6 +126,14 @@
   .main02 .one {
     border-bottom: 0.1rem solid #ccc;
 }
+.headerOne{
+  width: 60.5rem;
+  border-radius: 3.5rem;
+  box-shadow: 0 0 1rem #ccc;
+  /* padding: 1.2rem; */
+  background: #fff;
+  margin: 3rem auto 0;
+}
   .main02 .one .headerOne p {
     font-size: 3.6rem;
     font-weight: 400;
@@ -158,7 +144,7 @@
     padding: 3.8rem 3.8rem;
     color: #111224;
     font-size: 2.6rem;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-weight: 500;
     line-height: 3.2rem;
     text-align: center;
@@ -326,11 +312,12 @@
     padding-right: 0.5rem;
   }
   
-  
-  
-  .main02::-webkit-scrollbar-thumb {
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  body::-webkit-scrollbar-thumb {
     width: 5px;
-    background: #717171;
+    background: #111224;
     border-radius: 10px;
     border: 3px solid #ccc;
   }

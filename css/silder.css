@@ -5,6 +5,7 @@
     /* margin: auto; */
     overflow: hidden;
     /* position: relative; */
+    border-radius: 3.5rem;
 }
 .cont-button__slider{
     justify-content: space-between;
