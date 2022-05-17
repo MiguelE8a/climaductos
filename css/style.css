@@ -121,13 +121,12 @@
     background-image: url(../images/back04.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 .headerOne{
   width: 60.5rem;
   border-radius: 3.5rem;
   box-shadow: 0 0 1rem #ccc;
-  /* padding: 1.2rem; */
   background: #fff;
   margin: 3rem auto 0;
 }
@@ -142,10 +141,7 @@
     color: #fff;
     font-size: 6rem;
     font-family: 'Nunito', sans-serif;
-    /* font-weight: 700; */
-    /* line-height: 3.2rem; */
     text-align: center;
-    /* font-style: italic; */
   }
   .main02 .two {
     border-bottom: 0.1rem solid #ccc;
